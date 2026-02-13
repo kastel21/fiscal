@@ -1,0 +1,1657 @@
+INFO 2026-02-11 11:54:39,260 FDMS call logged: GET /Device/v1/123/GetConfig -> 200
+INFO 2026-02-11 11:54:39,264 FDMS call logged: POST /Device/v1/123/Ping -> Connection timeout
+INFO 2026-02-11 12:16:43,929 FDMS call logged: POST /Public/v1/32327/RegisterDevice -> 200
+INFO 2026-02-11 12:16:43,937 Device 32327 registered successfully
+INFO 2026-02-11 12:16:52,676 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:16:52,676 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:16:53,133 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:16:53,134 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:17:18,073 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:17:18,074 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:17:43,288 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:17:43,290 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:18:08,618 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:18:08,620 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:18:33,270 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:18:33,271 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:18:58,107 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:18:58,108 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:19:23,264 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:19:23,265 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:19:48,227 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:19:48,228 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:20:13,075 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:20:13,076 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:20:38,874 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:20:38,876 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:21:03,192 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:21:03,193 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:21:28,074 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:21:28,074 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:21:53,353 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:21:53,354 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:22:18,498 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:22:18,500 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:22:43,226 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:22:43,228 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:23:08,557 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:23:08,559 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:23:33,190 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:23:33,192 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:23:58,128 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:23:58,128 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:24:24,561 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:24:24,562 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:24:48,091 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:24:48,092 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:25:13,174 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:25:13,175 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:26:03,293 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:26:03,294 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:26:13,350 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:26:13,352 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:26:13,728 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:26:13,729 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:26:33,805 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:26:33,806 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:26:53,752 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:26:53,753 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:27:13,826 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:27:13,827 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:27:33,857 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:27:33,858 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:27:53,814 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:27:53,815 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:28:13,853 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:28:13,854 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:28:33,829 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:28:33,831 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:28:53,779 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:28:53,780 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:29:13,795 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:29:13,797 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:29:33,755 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:29:33,756 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:29:53,771 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:29:53,771 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:30:13,756 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:30:13,757 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:30:34,705 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:30:34,706 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:30:53,945 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:30:53,946 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:14,088 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:14,090 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:33,551 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:33,553 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:33,944 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:33,945 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:34,119 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:34,120 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:42,611 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:42,612 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:43,166 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:43,166 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:50,047 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:50,048 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:50,544 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:50,545 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:51,803 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:51,804 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:31:52,265 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:31:52,266 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:32:12,302 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:32:12,303 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:36:04,524 FDMS call logged: POST /Public/v1/32327/RegisterDevice -> 200
+INFO 2026-02-11 12:36:04,531 Device 32327 registered successfully
+INFO 2026-02-11 12:36:13,118 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:36:13,119 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:36:13,789 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:36:13,790 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:36:22,025 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:36:22,026 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:36:22,558 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:36:22,559 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:36:42,755 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:36:42,756 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:37:02,738 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:37:02,740 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:37:22,960 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:37:22,961 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:37:42,556 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:37:42,558 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:38:02,494 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:38:02,495 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:38:22,591 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:38:22,593 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:38:42,527 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:38:42,528 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:39:02,564 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:39:02,565 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:39:22,558 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:39:22,559 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:39:42,534 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:39:42,534 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:40:02,836 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:40:02,837 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:40:22,561 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:40:22,562 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:40:40,721 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:40:40,722 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:40:41,308 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:40:41,309 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:41:01,344 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:41:01,345 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:41:07,452 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:41:07,454 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:41:08,001 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:41:08,002 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:41:09,422 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:41:09,423 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:41:10,083 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:41:10,085 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:41:30,068 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:41:30,070 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:41:50,092 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:41:50,094 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:42:10,469 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:42:10,470 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:42:30,380 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:42:30,380 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:42:50,013 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:42:50,015 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:43:10,666 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:43:10,676 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:43:29,944 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:43:29,945 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:43:50,179 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:43:50,180 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:44:10,126 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:44:10,128 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:44:30,013 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:44:30,014 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:44:49,996 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:44:49,997 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:45:07,960 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:45:07,961 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:45:08,499 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:45:08,500 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:45:10,557 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:45:10,558 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:45:28,439 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:45:28,440 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:45:48,475 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:45:48,476 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:46:08,559 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:46:08,561 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:46:28,493 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:46:28,493 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:46:48,588 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:46:48,589 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:46:59,902 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:46:59,904 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:47:00,634 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:47:00,635 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:47:02,060 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:47:02,061 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:47:20,567 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:47:20,569 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:47:40,783 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:47:40,784 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:47:41,783 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:47:41,783 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:47:42,391 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:47:42,392 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:47:44,863 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:47:44,909 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:48:02,311 FDMS call logged: GET /Device/v1/32327/GetStatus -> 400
+ERROR 2026-02-11 12:48:02,312 GetStatus failed for device 32327: Bad Request
+INFO 2026-02-11 12:48:21,842 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:22,358 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:22,395 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:22,904 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:22,955 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:23,472 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:23,489 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:24,012 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:24,044 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:24,559 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:24,575 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:25,107 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:25,138 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:25,654 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:25,670 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:26,197 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:26,232 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:28,627 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:29,208 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:29,231 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:29,810 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:29,871 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:30,379 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:30,395 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:30,928 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:30,966 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:31,560 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:31,577 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:32,115 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:32,149 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:32,726 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:32,746 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:33,320 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:33,348 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:33,859 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:33,877 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:34,352 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:34,383 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:34,852 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:34,867 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:35,345 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:35,372 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:35,914 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:35,931 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:38,317 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:38,989 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:39,074 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:39,815 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:39,842 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:40,380 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:40,417 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:40,985 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:41,004 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:41,552 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:41,588 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:42,152 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:42,166 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:42,661 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:42,695 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:43,201 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:43,217 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:43,774 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:43,805 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:44,500 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:44,521 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:45,233 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:45,271 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:45,837 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:45,858 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:46,616 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:46,662 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:47,404 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:47,513 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:48,131 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:48,160 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:48,661 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:48,677 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:49,179 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:49,208 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:49,297 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:49,881 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:49,941 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:49,973 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:50,465 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:50,482 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:51,070 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:51,101 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:51,608 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:51,624 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:52,066 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:52,093 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:52,533 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:52,548 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:52,979 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:53,007 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:53,495 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:53,511 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:53,983 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:54,009 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:54,654 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:54,666 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:55,082 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:55,114 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:55,582 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:55,598 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:56,091 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:56,124 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:56,684 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:56,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:57,197 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:57,228 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:57,707 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:57,722 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:58,137 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:58,159 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:58,596 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:58,611 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:59,166 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:59,194 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:48:59,654 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:48:59,668 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:00,083 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:00,111 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:00,548 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:00,563 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:01,092 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:01,121 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:01,547 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:01,563 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:02,008 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:02,039 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:02,464 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:02,478 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:02,889 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:02,914 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:03,388 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:03,399 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:03,813 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:03,839 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:04,282 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:04,296 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:04,715 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:04,746 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:05,194 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:05,208 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:05,628 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:05,773 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:06,611 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:06,631 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:07,132 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:07,163 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:07,618 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:07,633 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:08,046 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:08,073 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:08,526 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:08,541 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:08,963 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:08,992 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:09,418 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:09,431 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:09,852 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:09,879 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:10,316 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:10,330 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:10,760 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:10,784 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:11,220 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:11,234 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:11,668 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:11,696 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:12,138 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:12,151 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:12,559 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:12,588 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:13,012 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:13,031 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:13,479 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:13,508 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:14,026 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:14,044 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:14,494 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:14,524 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:14,942 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:14,959 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:15,426 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:15,458 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:15,944 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:15,962 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:16,459 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:16,492 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:17,009 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:17,028 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:17,536 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:17,565 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:18,008 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:18,022 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:18,038 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:18,576 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:18,595 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:18,600 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:18,612 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:19,288 FDMS call logged: POST /Device/v1/32327/OpenDay -> 200
+INFO 2026-02-11 12:49:19,301 OpenDay OK for device 32327: fiscal day #28
+INFO 2026-02-11 12:49:19,321 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:19,343 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:19,846 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:19,887 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:20,493 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:39,887 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:40,323 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:44,331 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:44,880 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:44,910 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:45,392 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:49,933 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:50,282 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:50,295 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:50,677 FDMS call logged: POST /Device/v1/32327/CloseDay -> 200
+INFO 2026-02-11 12:49:50,681 CloseDay initiated for device 32327
+INFO 2026-02-11 12:49:50,692 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:49:51,102 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:49:59,919 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:50:00,280 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:50:09,915 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:50:10,295 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:50:16,665 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:50:17,005 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:50:17,028 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:50:17,396 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:50:37,040 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:50:37,662 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:50:57,040 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:50:57,626 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:51:17,041 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:51:17,717 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:51:37,038 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:51:37,507 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:51:57,034 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:51:57,551 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:52:17,045 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:52:17,569 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:52:37,036 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:52:37,473 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:52:57,037 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:52:57,757 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:53:17,041 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:53:17,451 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:53:37,044 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:53:37,916 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:53:57,032 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:53:57,450 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:54:17,041 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:54:17,698 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:54:37,041 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:54:37,457 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:54:57,034 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:54:57,418 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:55:17,038 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:55:17,464 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:55:37,029 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:55:37,483 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:55:57,036 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:55:57,508 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:56:17,040 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:56:17,516 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:56:37,034 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:56:37,493 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:56:57,039 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:56:57,553 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:57:03,995 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:57:04,461 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:57:04,502 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:57:04,913 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:57:06,799 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:57:07,154 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:57:07,175 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:57:07,533 FDMS call logged: POST /Device/v1/32327/CloseDay -> 200
+INFO 2026-02-11 12:57:07,540 CloseDay initiated for device 32327
+INFO 2026-02-11 12:57:07,547 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:57:07,926 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:57:17,512 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:57:17,950 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:57:17,970 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:57:18,440 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:57:27,509 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:57:27,885 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:57:47,505 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:57:47,829 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:58:07,502 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:58:07,845 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:58:27,517 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:58:27,894 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:58:47,515 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:58:47,979 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:59:07,514 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:59:07,875 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:59:08,989 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:59:09,489 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:59:09,528 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:59:09,928 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:59:15,182 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:59:15,591 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:59:15,598 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:59:16,035 FDMS call logged: POST /Device/v1/32327/CloseDay -> 200
+INFO 2026-02-11 12:59:16,042 CloseDay initiated for device 32327
+INFO 2026-02-11 12:59:16,057 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:59:16,584 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:59:25,539 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:59:25,873 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:59:35,539 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:59:35,903 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 12:59:55,541 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 12:59:55,914 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:00:15,537 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:00:16,101 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:00:35,535 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:00:36,124 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:00:55,542 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:00:55,978 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:01:15,538 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:01:16,044 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:01:35,537 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:01:35,977 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:01:55,531 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:01:55,959 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:02:15,543 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:02:16,188 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:02:35,540 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:02:35,951 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:02:55,543 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:02:55,940 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:03:15,544 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:03:15,961 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:03:35,547 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:03:35,994 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:03:55,548 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:03:55,987 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:04:15,554 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:04:16,127 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:04:35,547 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:04:36,087 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:04:55,536 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:04:56,415 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:05:15,539 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:05:16,152 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:05:35,541 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:05:36,229 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:05:55,533 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:05:55,963 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:06:15,540 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:06:16,022 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:06:35,551 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:06:36,055 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:06:55,547 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:06:56,086 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:07:02,469 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:07:02,853 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:07:02,892 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:07:03,250 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:07:04,567 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:07:04,892 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:07:22,892 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:07:23,320 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:07:42,891 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:07:43,352 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:07:52,948 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:07:53,300 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:07:53,325 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:07:53,662 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:08:02,746 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:08:03,082 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:08:13,330 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:08:13,679 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:08:33,342 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:08:33,737 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:08:53,336 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:08:53,750 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:09:13,338 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:09:13,820 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:09:33,331 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:09:33,751 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:09:53,334 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:09:53,758 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:10:13,338 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:10:13,879 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:10:33,345 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:10:33,891 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:10:53,337 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:10:53,898 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:11:13,326 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:11:13,801 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:11:33,340 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:11:33,754 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:11:53,340 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:11:53,755 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:12:13,338 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:12:13,731 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:12:33,326 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:12:33,684 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:12:53,340 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:12:53,676 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:13:13,330 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:13:13,767 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:13:33,342 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:13:33,778 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:13:53,339 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:13:53,868 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:14:13,337 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:14:13,758 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:14:33,334 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:14:33,770 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:14:53,328 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:14:53,803 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:15:13,332 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:15:13,714 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:15:33,340 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:15:33,929 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:15:53,342 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:15:53,745 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:16:13,335 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:16:13,751 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:16:33,333 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:16:33,892 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:16:53,344 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:16:53,804 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:17:13,337 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:17:13,757 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:17:33,343 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:17:33,807 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:17:53,347 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:17:53,876 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:18:13,332 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:18:13,954 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:18:33,340 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:18:33,745 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:18:53,334 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:18:53,834 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:19:13,339 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:19:13,759 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:19:33,329 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:19:33,727 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:19:53,342 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:19:53,855 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:20:13,334 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:20:13,793 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:20:33,337 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:20:33,769 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:20:53,337 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:20:53,870 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:21:13,341 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:21:13,770 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:21:33,342 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:21:33,743 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:21:53,328 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:21:53,833 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:22:13,332 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:22:13,756 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:22:33,337 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:22:33,768 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:22:51,817 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:22:52,448 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:22:52,508 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:22:52,970 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:22:59,873 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:00,336 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:23:12,510 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:12,879 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:23:33,022 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:33,400 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:23:42,161 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:42,530 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:23:42,567 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:42,900 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:23:43,880 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:44,336 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:23:44,345 CloseDay canonical string: 28|0|
+INFO 2026-02-11 13:23:44,345 CloseDay signature hash: 2qBZGR8yBE8BK8skyRNdHvTgYE6rxEqgquhhxKgfLHI=
+INFO 2026-02-11 13:23:44,345 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:44,708 FDMS call logged: POST /Device/v1/32327/CloseDay -> 200
+INFO 2026-02-11 13:23:44,714 CloseDay initiated for device 32327
+INFO 2026-02-11 13:23:44,724 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:45,075 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:23:54,578 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:55,033 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:23:55,052 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:23:55,398 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:24:04,569 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:24:05,007 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:24:24,566 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:24:24,927 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:24:44,579 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:24:44,971 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:25:04,575 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:25:04,969 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:25:24,570 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:25:25,067 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:25:44,570 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:25:45,116 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:04,574 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:04,998 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:24,583 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:25,099 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:44,575 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:45,357 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:45,397 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:46,196 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:46,244 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:47,029 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:47,056 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:47,830 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:47,875 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:48,642 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:48,674 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:49,452 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:49,498 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:50,278 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:50,308 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:51,109 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:51,166 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:52,012 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:52,042 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:52,805 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:52,865 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:53,671 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:53,698 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:54,477 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:54,517 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:55,289 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:55,316 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:56,125 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:56,167 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:56,948 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:56,981 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:57,815 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:57,869 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:58,633 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:58,663 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:26:59,473 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:26:59,516 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:00,278 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:00,311 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:01,118 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:01,164 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:01,941 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:01,968 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:02,739 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:02,780 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:03,579 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:03,604 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:04,361 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:04,406 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:05,299 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:05,327 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:06,114 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:06,159 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:06,902 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:06,928 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:07,724 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:07,772 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:08,615 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:08,638 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:09,187 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:09,215 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:09,733 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:09,748 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:10,249 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:10,282 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:10,769 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:10,792 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:11,283 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:11,316 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:11,829 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:11,847 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:12,322 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:12,356 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:12,873 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:12,894 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:13,347 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:13,380 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:13,788 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:13,803 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:14,228 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:14,273 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:14,912 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:14,938 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:15,612 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:15,647 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:16,232 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:16,260 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:16,761 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:16,793 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:17,376 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:17,401 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:17,916 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:17,945 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:18,364 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:18,382 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:19,132 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:19,159 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:19,589 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:19,601 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:19,945 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:19,967 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:20,348 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:20,363 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:20,750 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:20,775 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:21,154 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:21,166 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:21,532 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:21,556 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:22,030 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:22,047 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:22,444 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:22,467 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:22,842 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:22,858 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:23,226 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:23,250 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:23,615 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:23,629 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:24,028 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:24,052 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:24,445 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:24,461 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:24,832 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:24,856 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:25,231 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:25,246 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:25,638 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:25,660 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:26,021 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:26,033 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:26,448 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:26,473 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:26,862 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:26,877 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:27,240 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:27,262 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:27,627 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:27,641 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:28,025 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:28,048 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:28,427 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:28,441 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:28,892 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:28,915 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:29,295 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:29,310 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:29,728 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:29,768 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:30,202 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:30,216 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:30,622 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:30,646 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:31,065 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:31,080 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:31,478 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:31,503 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:31,981 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:31,996 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:32,415 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:32,445 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:32,844 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:32,859 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:33,237 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:33,262 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:33,657 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:33,674 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:34,066 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:34,091 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:34,482 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:34,496 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:34,854 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:34,880 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:35,438 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:35,453 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:35,887 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:35,913 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:36,358 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:36,374 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:36,998 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:37,039 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:37,615 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:37,631 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:38,047 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:38,078 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:38,680 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:38,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:39,382 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:27:39,412 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:27:39,899 FDMS call logged: GET /Device/v1/32327/GetStatus -> 200
+INFO 2026-02-11 13:28:23,957 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:24,388 FDMS call logged: POST /Public/v1/32529/RegisterDevice -> 200
+INFO 2026-02-11 13:28:24,396 Device 32529 registered successfully
+INFO 2026-02-11 13:28:27,364 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:27,793 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:27,834 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:28,281 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:28,299 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:28,795 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:28,829 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:29,272 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:29,294 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:29,855 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:29,879 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:30,211 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:30,225 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:30,554 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:30,577 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:30,894 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:30,909 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:31,243 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:31,266 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:31,593 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:31,607 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:31,966 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:31,990 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:32,318 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:32,330 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:32,678 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:32,698 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:33,026 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:33,039 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:33,354 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:33,376 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:33,710 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:33,726 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:34,057 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:34,078 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:34,399 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:34,412 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:34,762 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:34,784 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:35,123 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:35,134 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:35,482 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:35,506 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:35,862 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:35,876 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:36,204 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:36,227 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:36,556 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:36,568 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:36,920 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:36,945 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:37,291 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:37,302 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:37,631 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:37,653 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:37,977 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:37,993 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:38,331 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:38,353 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:38,695 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:38,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:39,054 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:39,076 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:39,405 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:39,417 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:39,748 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:39,772 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:40,098 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:40,111 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:40,444 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:40,466 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:40,802 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:40,816 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:41,157 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:41,179 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:41,497 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:41,511 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:41,876 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:41,897 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:42,220 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:42,232 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:42,560 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:42,583 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:42,899 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:42,913 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:43,277 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:43,299 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:43,622 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:43,634 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:43,978 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:43,999 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:44,360 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:44,373 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:44,697 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:44,719 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:44,992 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:45,048 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:45,062 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:45,391 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:45,393 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:45,444 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:45,467 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:45,930 FDMS call logged: POST /Device/v1/32529/OpenDay -> 200
+INFO 2026-02-11 13:28:45,941 OpenDay OK for device 32529: fiscal day #1
+INFO 2026-02-11 13:28:45,948 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:52,160 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:52,520 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:52,542 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:52,871 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:55,160 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:55,684 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:28:55,690 CloseDay canonical string: 1|0|
+INFO 2026-02-11 13:28:55,690 CloseDay signature hash: ImVuCKwuIdr5hNDP3S656F8xK3m78P6efhXna0739+o=
+INFO 2026-02-11 13:28:55,690 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:56,134 FDMS call logged: POST /Device/v1/32529/CloseDay -> 200
+INFO 2026-02-11 13:28:56,139 CloseDay initiated for device 32529
+INFO 2026-02-11 13:28:56,147 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:28:56,571 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:29:05,553 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:29:05,970 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:29:15,553 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:29:16,014 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:29:26,264 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:29:26,670 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:29:26,695 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:29:27,044 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:29:46,698 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:29:47,099 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:30:06,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:30:07,100 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:30:26,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:30:27,161 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:30:46,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:30:47,244 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:31:06,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:31:07,154 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:31:26,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:31:27,207 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:31:46,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:31:47,117 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:32:06,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:32:07,142 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:32:26,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:32:27,166 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:32:46,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:32:47,103 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:33:06,720 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:33:07,117 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:33:26,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:33:27,167 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:33:46,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:33:47,347 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:34:06,700 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:34:07,127 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:34:26,698 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:34:27,096 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:34:46,700 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:34:47,112 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:35:06,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:35:07,085 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:35:26,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:35:27,095 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:35:46,698 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:35:47,081 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:36:06,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:36:07,037 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:36:26,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:36:27,093 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:36:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:36:47,082 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:37:06,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:37:07,149 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:37:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:37:27,061 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:37:46,699 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:37:47,152 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:38:06,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:38:07,168 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:38:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:38:27,122 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:38:46,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:38:47,114 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:39:06,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:39:07,168 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:39:26,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:39:27,224 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:39:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:39:47,091 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:40:06,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:40:07,209 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:40:26,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:40:27,053 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:40:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:40:47,088 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:41:06,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:41:07,105 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:41:26,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:41:27,144 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:41:46,700 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:41:47,062 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:42:06,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:42:07,100 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:42:26,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:42:27,058 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:42:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:42:47,115 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:43:06,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:43:07,046 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:43:26,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:43:27,164 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:43:46,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:43:47,062 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:44:06,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:44:07,163 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:44:26,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:44:27,132 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:44:46,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:44:47,027 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:45:06,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:45:07,232 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:45:26,700 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:45:27,130 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:45:46,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:45:47,197 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:46:06,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:46:07,100 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:46:26,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:46:27,118 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:46:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:46:47,122 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:47:06,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:47:07,121 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:47:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:47:27,226 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:47:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:47:47,089 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:48:06,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:48:07,127 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:48:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:48:27,285 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:48:46,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:48:47,271 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:49:06,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:49:07,179 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:49:26,721 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:49:27,235 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:49:46,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:49:47,117 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:50:06,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:50:07,153 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:50:26,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:50:27,312 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:50:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:50:47,263 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:51:06,720 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:51:07,334 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:51:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:51:27,106 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:51:46,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:51:47,272 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:52:06,700 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:52:07,296 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:52:26,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:52:27,266 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:52:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:52:47,130 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:53:06,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:53:07,175 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:53:26,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:53:27,148 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:53:46,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:53:47,109 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:54:06,698 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:54:07,159 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:54:26,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:54:27,819 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:54:46,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:54:47,112 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:55:06,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:55:07,229 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:55:26,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:55:27,182 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:55:46,706 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:55:47,118 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:56:06,706 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:56:07,136 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:56:26,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:56:27,066 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:56:46,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:56:47,084 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:57:06,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:57:07,192 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:57:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:57:27,100 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:57:46,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:57:47,475 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:58:06,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:58:07,309 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:58:26,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:58:27,140 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:58:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:58:47,122 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:59:06,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:59:07,187 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:59:26,719 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:59:27,186 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 13:59:46,720 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 13:59:47,337 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:00:06,706 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:00:07,114 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:00:26,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:00:27,420 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:00:46,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:00:47,126 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:01:06,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:01:07,149 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:01:26,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:01:27,225 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:01:46,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:01:47,112 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:02:06,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:02:07,204 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:02:26,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:02:27,166 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:02:46,700 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:02:47,208 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:03:06,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:03:07,268 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:03:26,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:03:27,141 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:03:46,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:03:47,150 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:04:06,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:04:07,129 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:04:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:04:27,248 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:04:46,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:04:47,108 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:05:06,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:05:07,181 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:05:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:05:27,140 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:05:46,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:05:47,253 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:06:06,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:06:07,090 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:06:26,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:06:27,086 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:06:46,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:06:47,103 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:07:06,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:07:07,306 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:07:26,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:07:27,130 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:07:46,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:07:47,153 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:08:06,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:08:07,138 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:08:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:08:27,141 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:08:46,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:08:47,153 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:09:06,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:09:07,201 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:09:26,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:09:27,219 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:09:46,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:09:47,161 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:10:06,739 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:10:07,180 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:10:26,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:10:27,196 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:10:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:10:47,203 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:11:06,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:11:07,200 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:11:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:11:27,145 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:11:46,717 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:11:47,348 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:12:06,719 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:12:07,192 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:12:26,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:12:27,131 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:12:46,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:12:47,274 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:13:06,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:13:07,289 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:13:26,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:13:27,610 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:13:46,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:13:47,125 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:14:06,699 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:14:07,300 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:14:26,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:14:27,342 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:14:46,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:14:47,410 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:15:06,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:15:07,398 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:15:26,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:15:27,309 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:15:46,717 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:15:47,417 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:16:06,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:16:07,230 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:16:26,706 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:16:27,136 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:16:46,700 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:16:47,338 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:17:06,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:17:07,502 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:17:26,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:17:27,124 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:17:46,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:17:47,214 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:18:06,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:18:07,210 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:18:26,722 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:18:27,190 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:18:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:18:47,168 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:19:06,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:19:07,192 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:19:26,717 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:19:27,230 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:19:46,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:19:47,189 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:20:06,718 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:20:07,205 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:20:26,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:20:27,297 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:20:46,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:20:47,193 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:21:06,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:21:07,139 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:21:26,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:21:27,210 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:21:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:21:47,134 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:22:06,706 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:22:07,251 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:22:26,700 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:22:27,145 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:22:46,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:22:47,228 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:23:06,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:23:07,111 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:23:26,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:23:27,132 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:23:46,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:23:47,073 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:24:06,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:24:07,089 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:24:26,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:24:27,131 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:24:46,718 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:24:47,182 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:25:06,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:25:07,110 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:25:26,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:25:27,153 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:25:46,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:25:47,221 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:26:06,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:26:07,112 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:26:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:26:27,210 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:26:46,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:26:47,139 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:27:06,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:27:07,104 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:27:26,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:27:27,228 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:27:46,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:27:47,114 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:28:06,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:28:07,263 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:28:26,698 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:28:27,112 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:28:46,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:28:47,339 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:29:06,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:29:07,273 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:29:26,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:29:27,106 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:29:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:29:47,131 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:30:06,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:30:07,107 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:30:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:30:27,106 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:30:46,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:30:47,259 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:31:06,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:31:07,227 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:31:26,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:31:27,130 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:31:46,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:31:47,343 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:32:06,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:32:07,148 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:32:26,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:32:27,124 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:32:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:32:47,140 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:33:06,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:33:07,138 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:33:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:33:27,270 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:33:46,720 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:33:47,310 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:34:06,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:34:07,111 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:34:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:34:27,137 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:34:46,697 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:34:47,119 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:35:06,700 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:35:07,078 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:35:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:35:27,213 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:35:46,706 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:35:47,124 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:36:06,717 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:36:07,143 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:36:26,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:36:27,095 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:36:46,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:36:47,119 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:37:06,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:37:07,444 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:37:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:37:27,354 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:37:46,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:37:47,486 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:38:06,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:38:07,163 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:38:26,699 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:38:27,116 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:38:46,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:38:47,135 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:39:06,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:39:07,106 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:39:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:39:27,266 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:39:46,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:39:47,140 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:40:06,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:40:07,836 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:40:26,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:40:27,748 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:40:46,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:40:47,392 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:41:06,732 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:41:07,348 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:41:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:41:27,437 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:41:46,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:41:47,514 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:42:06,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:42:07,151 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:42:26,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:42:27,407 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:42:46,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:42:47,157 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:43:06,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:43:07,119 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:43:26,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:43:27,542 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:43:46,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:43:47,163 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:44:06,717 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:44:07,140 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:44:26,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:44:27,107 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:44:46,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:44:47,152 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:45:06,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:45:07,150 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:45:26,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:45:27,107 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:45:46,717 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:45:47,129 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:46:06,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:46:07,184 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:46:26,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:46:27,108 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:46:46,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:46:47,103 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:47:06,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:47:07,134 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:47:26,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:47:27,104 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:47:46,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:47:47,107 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:48:06,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:48:07,137 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:48:26,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:48:27,189 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:48:46,719 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:48:47,358 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:49:06,701 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:49:07,108 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:49:26,699 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:49:27,175 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:49:46,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:49:47,135 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:50:06,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:50:07,244 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:50:26,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:50:27,132 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:50:46,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:50:47,114 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:51:06,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:51:07,124 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:51:26,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:51:27,108 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:51:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:51:47,186 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:52:06,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:52:07,339 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:52:26,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:52:27,543 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:52:46,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:52:47,177 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:53:06,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:53:07,163 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:53:26,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:53:27,287 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:53:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:53:47,200 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:54:06,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:54:07,133 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:54:26,705 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:54:27,190 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:54:46,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:54:47,395 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:55:06,720 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:55:07,236 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:55:26,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:55:27,287 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:55:46,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:55:47,122 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:56:06,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:56:07,131 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:56:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:56:27,130 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:56:46,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:56:47,291 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:57:06,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:57:07,228 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:57:26,704 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:57:27,107 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:57:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:57:47,211 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:58:06,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:58:07,213 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:58:26,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:58:27,120 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:58:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:58:47,215 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:59:06,715 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:59:07,156 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:59:26,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:59:27,228 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 14:59:46,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 14:59:47,442 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:00:06,709 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:00:07,207 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:00:26,710 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:00:27,151 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:00:46,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:00:47,104 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:01:06,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:01:07,209 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:01:26,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:01:27,263 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:01:46,712 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:01:47,127 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:02:06,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:02:07,278 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:02:26,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:02:27,169 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:02:46,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:02:47,122 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:03:06,707 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:03:07,134 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:03:26,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:03:27,114 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:03:46,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:03:47,178 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:04:06,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:04:07,197 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:04:26,702 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:04:27,123 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:04:46,708 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:04:47,114 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:05:06,706 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:05:07,108 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:05:26,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:05:27,296 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:05:46,720 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:05:47,333 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:06:06,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:06:07,450 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:06:26,703 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:06:27,125 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:06:46,714 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:06:47,165 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:07:06,718 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:07:07,294 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:07:26,713 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:07:27,210 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:07:46,716 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:07:47,127 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:08:06,706 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:08:07,136 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:39:46,379 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:39:46,715 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:39:46,778 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:39:47,115 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:40:06,786 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:40:07,425 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:40:13,545 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:40:13,951 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:40:13,963 CloseDay canonical string: 1|0|
+INFO 2026-02-11 15:40:13,963 CloseDay signature hash: ImVuCKwuIdr5hNDP3S656F8xK3m78P6efhXna0739+o=
+INFO 2026-02-11 15:40:13,963 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:40:14,417 FDMS call logged: POST /Device/v1/32529/CloseDay -> 200
+INFO 2026-02-11 15:40:14,424 CloseDay initiated for device 32529
+INFO 2026-02-11 15:40:14,438 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:40:14,825 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:40:23,783 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:40:24,202 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:41:14,711 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:41:15,074 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:41:15,103 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:41:15,553 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:41:36,121 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:41:36,633 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:41:40,168 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:41:40,711 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:41:40,764 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:41:41,395 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:42:00,766 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:42:01,291 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:42:05,270 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:42:05,729 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:42:05,782 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:42:06,402 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200
+INFO 2026-02-11 15:42:26,011 FDMS Headers: {'DeviceModelName': 'Server', 'DeviceModelVersion': 'v1', 'Content-Type': 'application/json'}
+INFO 2026-02-11 15:42:26,472 FDMS call logged: GET /Device/v1/32529/GetStatus -> 200

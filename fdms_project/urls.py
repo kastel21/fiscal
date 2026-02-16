@@ -16,6 +16,7 @@ Including another URLconf
 """
 
 from django.contrib import admin
+from django.shortcuts import redirect
 from django.urls import include, path
 
 from fiscal.views_health import fdms_health
@@ -23,5 +24,9 @@ from fiscal.views_health import fdms_health
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("health/fdms/", fdms_health),
+    path("", lambda r: redirect("fdms_dashboard")),
+    path("dashboard/", lambda r: redirect("fdms_dashboard")),
+    path("device/", include("device_identity.urls")),
+    path("offline/", include("offline.urls")),
     path("", include("fiscal.urls")),
 ]

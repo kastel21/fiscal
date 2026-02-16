@@ -3,19 +3,22 @@ FDMS Device API service.
 Implements authenticated (mTLS) Device endpoints.
 """
 
+import json
 import logging
 import time
-from datetime import datetime
-from decimal import Decimal, ROUND_HALF_UP
+from datetime import date, datetime
+from decimal import Decimal
 
 from django.conf import settings
 
 from fiscal.models import FiscalDay, FiscalDevice, Receipt
+from fiscal.services.close_day_counter_builder import build_close_day_counters
 from fiscal.services.fdms_base import FDMSBaseService
 from fiscal.services.fdms_logger import log_fdms_call
 from fiscal.services.fiscal_signature import build_fiscal_day_canonical_string, sign_fiscal_day_report
-from fiscal.services.mtls_client import cert_files_for_device
 from fiscal.services.http_client import fdms_request
+from fiscal.services.mtls_client import cert_files_for_device
+from fiscal.services.receipt_service import _fdms_json_dumps
 
 logger = logging.getLogger("fiscal")
 
@@ -85,6 +88,8 @@ class DeviceApiService(FDMSBaseService):
             if parsed:
                 device.certificate_valid_till = parsed
                 device.save(update_fields=["certificate_valid_till"])
+        from fiscal.services.config_service import persist_configs
+        persist_configs(device_id, data)
         logger.info("GetConfig OK for device %s", device_id)
         return data, None
 
@@ -234,103 +239,77 @@ class DeviceApiService(FDMSBaseService):
         Uses receipts as source of truth; never fabricates counters.
         """
         receipts = Receipt.objects.filter(device=device, fiscal_day_no=fiscal_day_no)
+        fiscal_day_obj = FiscalDay.objects.filter(device=device, fiscal_day_no=fiscal_day_no).first()
+        fiscal_day_date = fiscal_day_obj.opened_at.date() if fiscal_day_obj and fiscal_day_obj.opened_at else date.today()
+
         if not receipts.exists():
             receipt_counter = 0
             counters: list[dict] = []
-            sig = sign_fiscal_day_report(
+            canonical = build_fiscal_day_canonical_string(
+                device_id=device.device_id,
                 fiscal_day_no=fiscal_day_no,
-                receipt_counter=receipt_counter,
+                fiscal_day_date=fiscal_day_date,
+                fiscal_day_counters=counters,
+            )
+            sig = sign_fiscal_day_report(
+                device_id=device.device_id,
+                fiscal_day_no=fiscal_day_no,
+                fiscal_day_date=fiscal_day_date,
                 fiscal_day_counters=counters,
                 private_key_pem=device.get_private_key_pem_decrypted(),
                 certificate_pem=device.certificate_pem,
             )
             payload = {
+                "deviceID": device.device_id,
                 "fiscalDayNo": fiscal_day_no,
                 "receiptCounter": receipt_counter,
                 "fiscalDayCounters": counters,
                 "fiscalDayDeviceSignature": sig,
             }
-            canonical = build_fiscal_day_canonical_string(
-                fiscal_day_no=fiscal_day_no,
-                receipt_counter=receipt_counter,
-                fiscal_day_counters=counters,
+            logger.debug(
+                "CloseDay (no receipts): receipt_counter=%s counters=%s canonical=%s payload=%s",
+                receipt_counter, counters, canonical, json.dumps(payload, indent=2, default=str),
             )
             logger.info("CloseDay canonical string: %s", canonical)
             logger.info("CloseDay signature hash: %s", sig.get("hash"))
             return payload, ""
 
-        def _to_decimal(value) -> Decimal:
-            try:
-                return Decimal(str(value))
-            except Exception:
-                return Decimal("0")
-
-        def _fmt_decimal(value) -> str:
-            return str(_to_decimal(value).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP))
-
-        totals: dict[tuple, Decimal] = {}
-        for receipt in receipts:
-            currency = receipt.currency or "USD"
-            for tax in receipt.receipt_taxes or []:
-                percent = tax.get("taxPercent", tax.get("fiscalCounterTaxPercent"))
-                amount = tax.get("salesAmountWithTax", tax.get("fiscalCounterValue"))
-                counter_type = tax.get("fiscalCounterType", tax.get("counterType", tax.get("type", "saleByTax")))
-                counter_type_lower = str(counter_type).lower()
-                if counter_type_lower == "creditnotebytax":
-                    counter_type = "creditNoteByTax"
-                elif counter_type_lower == "salebytax":
-                    counter_type = "saleByTax"
-                else:
-                    counter_type = str(counter_type)
-                if percent is None or amount is None:
-                    continue
-                key = (counter_type, _to_decimal(percent), currency)
-                totals[key] = totals.get(key, Decimal("0")) + _to_decimal(amount)
-
-        if not totals:
-            return None, "No tax totals found for receipts; cannot close day"
-
-        counters = []
-        for (counter_type, percent, currency), value in totals.items():
-            counters.append(
-                {
-                    "fiscalCounterType": counter_type,
-                    "fiscalCounterCurrency": currency,
-                    "fiscalCounterTaxPercent": float(percent),
-                    "fiscalCounterValue": float(_to_decimal(value).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)),
-                }
-            )
-
-        counters = sorted(
-            counters,
-            key=lambda x: (x["fiscalCounterTaxPercent"], x["fiscalCounterCurrency"]),
-        )
-
-        receipt_counter = receipts.order_by("-receipt_global_no").first().receipt_global_no
-        if not receipt_counter or receipt_counter <= 0:
-            return None, "Invalid receiptCounter; cannot close day"
-        if last_receipt_no is not None and receipt_counter != last_receipt_no:
-            return None, "receiptCounter does not match FDMS status; aborting"
+        counters = build_close_day_counters(device, fiscal_day_no)
+        fiscalised_receipts = Receipt.objects.filter(
+            device=device, fiscal_day_no=fiscal_day_no
+        ).exclude(fdms_receipt_id__isnull=True).exclude(fdms_receipt_id=0)
+        receipt_counter = fiscalised_receipts.count()
+        if receipt_counter > 0 and not counters:
+            return None, "receiptCounter > 0 but fiscalDayCounters empty; aborting before FDMS"
 
         canonical = build_fiscal_day_canonical_string(
+            device_id=device.device_id,
             fiscal_day_no=fiscal_day_no,
-            receipt_counter=receipt_counter,
+            fiscal_day_date=fiscal_day_date,
             fiscal_day_counters=counters,
         )
+        receipt_global_nos = list(receipts.values_list("receipt_global_no", flat=True))
+        logger.debug(
+            "CloseDay: receipt_counter=%s counters=%s canonical=%s device.last_receipt_global_no=%s receipt_global_nos=%s",
+            receipt_counter, counters, canonical, device.last_receipt_global_no, receipt_global_nos,
+        )
         sig = sign_fiscal_day_report(
+            device_id=device.device_id,
             fiscal_day_no=fiscal_day_no,
-            receipt_counter=receipt_counter,
+            fiscal_day_date=fiscal_day_date,
             fiscal_day_counters=counters,
             private_key_pem=device.get_private_key_pem_decrypted(),
             certificate_pem=device.certificate_pem,
         )
 
         payload = {
+            "deviceID": device.device_id,
             "fiscalDayNo": fiscal_day_no,
             "receiptCounter": receipt_counter,
             "fiscalDayCounters": counters,
             "fiscalDayDeviceSignature": sig,
         }
+        logger.debug("CloseDay payload: %s", json.dumps(payload, indent=2, default=str))
         logger.info("CloseDay canonical string: %s", canonical)
         logger.info("CloseDay signature hash: %s", sig.get("hash"))
         return payload, ""
@@ -375,6 +354,8 @@ class DeviceApiService(FDMSBaseService):
         if payload_err:
             return None, payload_err
 
+        body = _fdms_json_dumps(payload)
+
         base_url = getattr(settings, "FDMS_BASE_URL", "").rstrip("/")
         device_id = device.device_id
         endpoint = f"/Device/v1/{device_id}/CloseDay"
@@ -386,7 +367,7 @@ class DeviceApiService(FDMSBaseService):
         try:
             with cert_files_for_device(device) as (cert_path, key_path):
                 response = fdms_request(
-                    "POST", url, json=payload, headers=headers,
+                    "POST", url, data=body, headers=headers,
                     cert=(cert_path, key_path), timeout=30,
                 )
         except ValueError as e:

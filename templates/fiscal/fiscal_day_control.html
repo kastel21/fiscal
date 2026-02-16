@@ -57,6 +57,27 @@
         .log-meta { display: flex; flex-wrap: wrap; gap: 0.75rem; font-size: 0.85rem; }
         .log-meta span { background: #e5e7eb; padding: 0.2rem 0.45rem; border-radius: 4px; }
         details { margin-top: 0.75rem; }
+        .close-day-progress {
+            background: #fef3c7;
+            border: 1px solid #f59e0b;
+            border-radius: 8px;
+            padding: 1rem;
+        }
+        .progress-header { font-weight: 600; color: #92400e; margin-bottom: 0.5rem; }
+        .progress-bar {
+            height: 8px;
+            background: #fde68a;
+            border-radius: 4px;
+            overflow: hidden;
+            margin-bottom: 0.5rem;
+        }
+        .progress-fill {
+            height: 100%;
+            background: #f59e0b;
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+        .polling-status { font-size: 0.85rem; color: #78350f; }
         pre {
             margin: 0.5rem 0 0;
             padding: 0.75rem;
@@ -77,6 +98,8 @@
     <nav class="nav">
         <a href="{% url 'device_register' %}">Register Device</a>
         <a href="{% url 'dashboard' %}">Fiscal Day Control</a>
+        <a href="{% url 'fiscal_day_dashboard' %}">Fiscal Day Dashboard</a>
+        <a href="{% url 'receipt_history' %}">Receipt History</a>
         <a href="{% url 'fdms_logs' %}">Logs</a>
     </nav>
 
@@ -122,7 +145,11 @@
                 <span class="status-value bad" id="closing-error">{{ closing_error|default:"" }}</span>
             </div>
             <div id="fetch-error" class="error" style="display:none; margin-top: 0.5rem;">{% if status_error %}{{ status_error }}{% endif %}</div>
-            <div id="pollingStatus" class="status-row" style="margin-top: 0.5rem; display:none;"></div>
+            <div id="closeDayProgress" class="close-day-progress" style="display:none; margin-top: 1rem;">
+                <div class="progress-header">CloseDay in progress</div>
+                <div class="progress-bar"><div class="progress-fill" id="progressFill"></div></div>
+                <div id="pollingStatus" class="polling-status"></div>
+            </div>
             <div style="margin-top: 1rem; display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap;">
                 <button type="button" id="open-day-btn" class="btn">Open Fiscal Day</button>
                 <button type="button" id="close-day-btn" class="btn btn-warning">Close Fiscal Day</button>
@@ -216,6 +243,9 @@
                 if (pollingInterval) return;
                 attempts = 0;
                 setButtonsDisabled(true);
+                var progressEl = document.getElementById('closeDayProgress');
+                if (progressEl) progressEl.style.display = 'block';
+                updateProgressUI();
                 pollingInterval = setInterval(fetchStatus, 10000);
             }
 
@@ -223,6 +253,16 @@
                 if (pollingInterval) clearInterval(pollingInterval);
                 pollingInterval = null;
                 setButtonsDisabled(false);
+                var progressEl = document.getElementById('closeDayProgress');
+                if (progressEl) progressEl.style.display = 'none';
+            }
+            function updateProgressUI() {
+                var fill = document.getElementById('progressFill');
+                var status = document.getElementById('pollingStatus');
+                if (!fill || !status) return;
+                var pct = Math.min(100, (attempts / 30) * 100);
+                fill.style.width = pct + '%';
+                status.textContent = 'Polling status... attempt ' + attempts + ' of 30 (every 10s)';
             }
 
             function setButtonsDisabled(disabled) {
@@ -237,12 +277,13 @@
                     .then(data => {
                         if (pollingInterval) {
                             attempts++;
+                            updateProgressUI();
                             if (attempts > 30) {
                                 stopPolling();
-                                const pollingEl = document.getElementById('pollingStatus');
-                                if (pollingEl) {
-                                    pollingEl.style.display = 'block';
-                                    pollingEl.innerHTML = "<span class='status-label'>Polling</span><span class='status-value bad'>CloseDay taking longer than expected.</span>";
+                                var progressEl = document.getElementById('closeDayProgress');
+                                if (progressEl) {
+                                    progressEl.style.display = 'block';
+                                    progressEl.innerHTML = "<div class='progress-header'>CloseDay timeout</div><div class='polling-status status-value bad'>CloseDay taking longer than expected. Check FDMS logs.</div>";
                                 }
                                 return;
                             }
@@ -250,10 +291,10 @@
                         if (data.error && data.fetch_error) {
                             document.getElementById('fetch-error').textContent = data.error;
                             document.getElementById('fetch-error').style.display = 'block';
-                            const pollingEl = document.getElementById('pollingStatus');
-                            if (pollingEl) {
-                                pollingEl.style.display = 'block';
-                                pollingEl.innerHTML = "<span class='status-label'>Polling</span><span class='status-value bad'>FDMS Unreachable</span>";
+                            const progressEl = document.getElementById('closeDayProgress');
+                            if (progressEl && pollingInterval) {
+                                var status = document.getElementById('pollingStatus');
+                                if (status) status.textContent = "FDMS Unreachable — retrying...";
                             }
                         } else {
                             document.getElementById('fetch-error').style.display = 'none';
@@ -267,17 +308,14 @@
                             if (intervalEl) intervalEl.textContent = pollInterval;
                             const pollingEl = document.getElementById('pollingStatus');
                             if (pollingEl) {
-                                pollingEl.style.display = 'block';
-                                pollingEl.innerHTML = "Current Status: <strong>" + (data.fiscalDayStatus || "—") + "</strong>";
+                                pollingEl.textContent = "Current Status: " + (data.fiscalDayStatus || "—");
                             }
                             if (data.fiscalDayStatus === "FiscalDayClosed") {
                                 stopPolling();
-                                alert("Fiscal Day Closed Successfully");
                                 location.reload();
                             }
                             if (data.fiscalDayStatus === "FiscalDayCloseFailed") {
                                 stopPolling();
-                                alert("Fiscal Day Close Failed");
                             }
                         }
                         if (data.lastFiscalDayNo !== undefined && data.lastFiscalDayNo !== null) {

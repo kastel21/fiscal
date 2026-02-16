@@ -67,6 +67,7 @@
         .log-status { font-weight: 600; }
         .log-status.ok { color: #059669; }
         .log-status.err { color: #dc2626; }
+        .log-operation-id { font-size: 0.8rem; color: #6b7280; font-family: monospace; max-width: 12rem; overflow: hidden; text-overflow: ellipsis; }
         .log-time { font-size: 0.85rem; color: #6b7280; }
         .log-toggle { font-size: 0.8rem; color: #6b7280; }
         .log-details { padding: 0 1rem 1rem; border-top: 1px solid #e5e7eb; }
@@ -92,15 +93,21 @@
     <p class="subtitle">Audit trail for FDMS API calls (last 100, sensitive data masked)</p>
 
     <nav class="nav">
-        <a href="{% url 'dashboard' %}">Dashboard</a>
-        <a href="{% url 'device_register' %}">Register Device</a>
+        <a href="{% url 'dashboard' %}">Fiscal Day Control</a>
+        <a href="{% url 'fiscal_day_dashboard' %}">Fiscal Day Dashboard</a>
+        <a href="{% url 'receipt_history' %}">Receipt History</a>
         <a href="{% url 'fdms_logs' %}">Logs</a>
+        <a href="{% url 'device_register' %}">Register Device</a>
     </nav>
 
     <form method="get" class="filters">
         <div class="filter-group">
             <label>Endpoint</label>
             <input type="text" name="endpoint" value="{{ filters.endpoint }}" placeholder="e.g. /Device/v1">
+        </div>
+        <div class="filter-group">
+            <label>Operation ID</label>
+            <input type="text" name="operation_id" value="{{ filters.operation_id }}" placeholder="e.g. 0HMPH9AF0QKKE:00000005">
         </div>
         <div class="filter-group">
             <label>Status Code</label>
@@ -125,6 +132,7 @@
             <div class="log-header" data-log-id="{{ log.id }}" onclick="toggleLog({{ log.id }})">
                 <span class="log-method {{ log.method|lower }}">{{ log.method }}</span>
                 <span class="log-endpoint">{{ log.endpoint }}</span>
+                {% if log.operation_id %}<span class="log-operation-id" title="Operation ID">{{ log.operation_id }}</span>{% endif %}
                 <span class="log-status {% if log.status_code and log.status_code < 400 %}ok{% else %}err{% endif %}">
                     {{ log.status_code|default:"—" }}
                 </span>

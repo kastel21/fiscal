@@ -60,3 +60,26 @@ def decrypt_private_key(stored: str) -> str:
 def is_encryption_available() -> bool:
     """Return True if FDMS_ENCRYPTION_KEY is configured."""
     return _get_fernet() is not None
+
+
+def encrypt_string(plain: str) -> str:
+    """Encrypt string for storage."""
+    f = _get_fernet()
+    if not f:
+        return plain
+    data = plain.encode("utf-8")
+    enc = f.encrypt(data)
+    return "ENC:" + base64.b64encode(enc).decode()
+
+
+def decrypt_string(stored: str) -> str:
+    """Decrypt stored string."""
+    if not stored:
+        return ""
+    if stored.startswith("ENC:"):
+        f = _get_fernet()
+        if not f:
+            raise ValueError("FDMS_ENCRYPTION_KEY not set; cannot decrypt")
+        enc = base64.b64decode(stored[4:])
+        return f.decrypt(enc).decode("utf-8")
+    return stored

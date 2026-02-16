@@ -26,19 +26,27 @@ SECRET_KEY = "django-insecure-jwuu_kt!k61sm@gv(nxf#^+wf%2@l16mi$)83k!7_u%z^@*dna
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["www.resumeweaver.co.zw", "127.0.0.1"]
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    "daphne",
+    "rest_framework",
+    "rest_framework_simplejwt",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "channels",
+    "dashboard",
+    "device_identity",
     "fiscal",
+    "invoices",
+    "offline",
 ]
 
 MIDDLEWARE = [
@@ -47,6 +55,7 @@ MIDDLEWARE = [
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
     "django.contrib.auth.middleware.AuthenticationMiddleware",
+    "fdms_project.jwt_middleware.JWTAuthenticationMiddleware",
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
@@ -64,12 +73,32 @@ TEMPLATES = [
                 "django.template.context_processors.request",
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
+                "dashboard.context_processors.dashboard_nav",
+                "fiscal.context_processors.fdms_device",
             ],
         },
     },
 ]
 
 WSGI_APPLICATION = "fdms_project.wsgi.application"
+ASGI_APPLICATION = "fdms_project.asgi.application"
+
+# Celery
+CELERY_BROKER_URL = os.environ.get("CELERY_BROKER_URL", "redis://localhost:6379/1")
+CELERY_RESULT_BACKEND = os.environ.get("CELERY_RESULT_BACKEND", "redis://localhost:6379/2")
+CELERY_ACCEPT_CONTENT = ["json"]
+CELERY_TASK_SERIALIZER = "json"
+CELERY_RESULT_SERIALIZER = "json"
+CELERY_TASK_ALWAYS_EAGER = os.environ.get("CELERY_TASK_ALWAYS_EAGER", "false").lower() == "true"
+
+# Channels (WebSocket) - use InMemoryChannelLayer when Redis not configured
+_REDIS_URL = os.environ.get("REDIS_URL", "redis://localhost:6379/0")
+CHANNEL_LAYERS = {
+    "default": {
+        "BACKEND": "channels_redis.core.RedisChannelLayer",
+        "CONFIG": {"hosts": [_REDIS_URL]},
+    }
+}
 
 
 # Database
@@ -124,6 +153,21 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+# JWT (REST Framework + Simple JWT)
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": [
+        "rest_framework_simplejwt.authentication.JWTAuthentication",
+        "rest_framework.authentication.SessionAuthentication",
+    ],
+}
+
+from datetime import timedelta
+
+SIMPLE_JWT = {
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=60),
+    "REFRESH_TOKEN_LIFETIME": timedelta(days=7),
+}
+
 # FDMS Integration Settings (use env in production)
 FDMS_ENV = os.environ.get("FDMS_ENV", "TEST")
 _FDMS_BASE_URL = os.environ.get("FDMS_BASE_URL")
@@ -141,6 +185,14 @@ FDMS_ACTIVATION_KEY = "00155070"
 FDMS_DEVICE_MODEL_NAME = "Server"
 FDMS_DEVICE_MODEL_VERSION = "v1"
 
+# QuickBooks Integration (optional)
+QB_CLIENT_ID = os.environ.get("QB_CLIENT_ID", "ABoIRVuxq2zIe8UuPVSjQ9rZgnmqKF9TWCUaLp9FT8utnvoT2Q")
+QB_CLIENT_SECRET = os.environ.get("QB_CLIENT_SECRET", "oiVAlPZMdAjFe9FvQr72nDwIy1iwsEfvMLF11nB8")
+QB_REDIRECT_URI = os.environ.get("QB_REDIRECT_URI", "https://www.resumeweaver.co.zw/api/integrations/quickbooks/oauth/callback/")
+
+# ZIMRA Section 11 QR verification URL for invoice deep link
+ZIMRA_QR_URL = "https://invoice.zimra.co.zw"
+
 # Logging Configuration
 LOGS_DIR = BASE_DIR / "logs"
 LOGS_DIR.mkdir(exist_ok=True)
@@ -156,6 +208,10 @@ LOGGING = {
             "format": "{levelname} {asctime} {message}",
             "style": "{",
         },
+        "json": {
+            "()": "fiscal.logging_formatter.JSONFormatter",
+            "datefmt": "%Y-%m-%dT%H:%M:%S",
+        },
     },
     "handlers": {
         "fdms_file": {
@@ -164,16 +220,28 @@ LOGGING = {
             "filename": LOGS_DIR / "fdms.log",
             "formatter": "simple",
         },
+        "fdms_json_file": {
+            "level": "INFO",
+            "class": "logging.FileHandler",
+            "filename": LOGS_DIR / "fdms_json.log",
+            "formatter": "json",
+        },
         "fdms_error_file": {
             "level": "ERROR",
             "class": "logging.FileHandler",
             "filename": LOGS_DIR / "fdms_error.log",
             "formatter": "simple",
         },
+        "fdms_error_json_file": {
+            "level": "ERROR",
+            "class": "logging.FileHandler",
+            "filename": LOGS_DIR / "fdms_error_json.log",
+            "formatter": "json",
+        },
     },
     "loggers": {
         "fiscal": {
-            "handlers": ["fdms_file", "fdms_error_file"],
+            "handlers": ["fdms_file", "fdms_json_file", "fdms_error_file", "fdms_error_json_file"],
             "level": "INFO",
             "propagate": False,
         },

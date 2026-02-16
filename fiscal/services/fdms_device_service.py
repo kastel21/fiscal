@@ -119,12 +119,13 @@ class FDMSDeviceService(FDMSBaseService):
         method: str,
         path: str,
         payload: dict | None = None,
+        body: str | None = None,
         device: FiscalDevice | None = None,
     ):
         """
         Perform FDMS device request with mutual TLS.
+        If body is provided, send it as request body; otherwise use json=payload.
         Uses cert=(cert_path, key_path), verify=True. Never verify=False.
-        Logs request + response. Deletes temp files after request.
         """
         base_url = getattr(settings, "FDMS_BASE_URL", "").rstrip("/")
         url = f"{base_url}{path}"
@@ -144,14 +145,16 @@ class FDMSDeviceService(FDMSBaseService):
 
         logger.info("FDMS Headers: %s", headers)
         with create_temp_cert_files(device) as (cert_path, key_path):
-            response = fdms_request(
-                method,
-                url,
-                json=payload,
-                headers=headers,
-                cert=(cert_path, key_path),
-                timeout=30,
-            )
+            if body is not None:
+                response = fdms_request(
+                    method, url, data=body, headers=headers,
+                    cert=(cert_path, key_path), timeout=30,
+                )
+            else:
+                response = fdms_request(
+                    method, url, json=payload, headers=headers,
+                    cert=(cert_path, key_path), timeout=30,
+                )
             log_fdms_call(
                 endpoint=path,
                 method=method.upper(),

@@ -15,7 +15,7 @@
             padding: 0;
         }
         .legal-wrap {
-            max-width: 720px;
+            max-width: 860px;
             margin: 0 auto;
             padding: 2rem 1.5rem 3rem;
             background: #fff;
@@ -66,6 +66,11 @@
         }
         .contact a { color: #2563eb; text-decoration: none; }
         .contact a:hover { text-decoration: underline; }
+        .legal-footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid #e5e7eb; font-size: 0.875rem; color: #6b7280; }
+        .legal-footer a { color: #2563eb; text-decoration: none; }
+        .legal-footer a:hover { text-decoration: underline; }
+        .legal-footer .sep { margin: 0 0.5rem; color: #9ca3af; }
+        .compliance-box { background: #f0f9ff; border: 1px solid #bae6fd; border-radius: 6px; padding: 1rem 1.25rem; margin: 1rem 0; font-size: 0.9375rem; }
     </style>
 </head>
 <body>
@@ -73,7 +78,7 @@
         <h1>Privacy Policy</h1>
         <p class="meta">Last Updated: {{ last_updated|default:"February 2026" }}</p>
 
-        <p>This Privacy Policy explains how [Your Company Name] (“Company”, “we”, “us”, or “our”) collects, uses, and protects information when you use our Fiscal Integration System (“Service”).</p>
+        <p>This Privacy Policy explains how MechaTechnologies (“Company”, “we”, “us”, or “our”) collects, uses, and protects information when you use our Fiscal Integration System (“Service”).</p>
 
         <h2>1. Information We Collect</h2>
         <p>We may collect and process the following types of information:</p>
@@ -114,12 +119,17 @@
             <li>Provide system support</li>
             <li>Ensure legal compliance</li>
         </ul>
-        <p>We do not sell user data.</p>
+        <p>We do not sell user data. We do not use behavioral tracking or marketing analytics on customer data.</p>
+
+        <div class="compliance-box">
+            <strong>Compliance statement.</strong> We do not manually access customer invoice or accounting data. The Company does <strong>NOT</strong> sell data, access financial records for commercial use, use invoice data for analytics, or share accounting data with unrelated third parties. Access is limited strictly to automated processing and compliance obligations.
+        </div>
 
         <h2>3. Data Storage & Security</h2>
         <p>We implement appropriate technical and organizational security measures including:</p>
         <ul>
             <li>Encrypted communication (HTTPS/TLS)</li>
+            <li>Encrypted storage of sensitive data</li>
             <li>Secure token storage</li>
             <li>Role-based access controls</li>
             <li>Database access restrictions</li>
@@ -168,10 +178,12 @@
         <h2>9. Contact Information</h2>
         <div class="contact">
             <p>For privacy-related inquiries, contact:</p>
-            <p><strong>[Your Company Name]</strong><br>
-            Email: <a href="mailto:support@yourdomain.com">support@yourdomain.com</a></p>
-            <p>Website: <a href="https://yourdomain.com">https://yourdomain.com</a></p>
+            <p><strong>MechaTechnologies</strong><br>
+            Email: <a href="mailto:support@mecha.co.zw">support@mecha.co.zw</a></p>
+            <p>Website: <a href="https://mecha.co.zw">https://mecha.co.zw</a></p>
         </div>
+
+        {% include "legal/_legal_footer.html" %}
     </div>
 </body>
 </html>

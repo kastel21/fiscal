@@ -76,6 +76,7 @@ TEMPLATES = [
                 "django.contrib.messages.context_processors.messages",
                 "dashboard.context_processors.dashboard_nav",
                 "fiscal.context_processors.fdms_device",
+                "legal.context_processors.eula_banner",
             ],
         },
     },

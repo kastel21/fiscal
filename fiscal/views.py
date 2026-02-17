@@ -472,8 +472,8 @@ def fdms_logs(request):
 
     logs = list(queryset[:100])
     for log in logs:
-        log._request_json = safe_json_dumps(log.request_payload) if log.request_payload else ""
-        log._response_json = safe_json_dumps(log.response_payload) if log.response_payload else ""
+        log.request_json = safe_json_dumps(log.request_payload) if log.request_payload else ""
+        log.response_json = safe_json_dumps(log.response_payload) if log.response_payload else ""
 
     return render(
         request,

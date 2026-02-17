@@ -41,8 +41,8 @@
         </div>
     </div>
     <div id="log-{{ log.id }}" class="hidden border-t bg-gray-50 p-4">
-        <div class="mb-2"><strong>Request:</strong><pre class="bg-gray-200 p-3 rounded text-xs overflow-auto max-h-40 mt-1">{{ log._request_json|default:"(empty)" }}</pre></div>
-        <div><strong>Response:</strong><pre class="bg-gray-200 p-3 rounded text-xs overflow-auto max-h-40 mt-1">{{ log._response_json|default:"(empty)" }}</pre></div>
+        <div class="mb-2"><strong>Request:</strong><pre class="bg-gray-200 p-3 rounded text-xs overflow-auto max-h-40 mt-1">{{ log.request_json|default:"(empty)" }}</pre></div>
+        <div><strong>Response:</strong><pre class="bg-gray-200 p-3 rounded text-xs overflow-auto max-h-40 mt-1">{{ log.response_json|default:"(empty)" }}</pre></div>
     </div>
 </div>
 {% endfor %}

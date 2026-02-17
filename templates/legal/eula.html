@@ -60,6 +60,10 @@
         }
         .contact a { color: #2563eb; text-decoration: none; }
         .contact a:hover { text-decoration: underline; }
+        .legal-footer { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid #e5e7eb; font-size: 0.875rem; color: #6b7280; }
+        .legal-footer a { color: #2563eb; text-decoration: none; }
+        .legal-footer a:hover { text-decoration: underline; }
+        .legal-footer .sep { margin: 0 0.5rem; color: #9ca3af; }
     </style>
 </head>
 <body>
@@ -67,7 +71,7 @@
         <h1>End-User License Agreement (EULA)</h1>
         <p class="meta">Last Updated: {{ last_updated|default:"February 2026" }}</p>
 
-        <p>This End-User License Agreement (“Agreement”) is entered into between you (“User”) and [Your Company Name] (“Company”) governing the use of the Fiscal Integration System (“Software”).</p>
+        <p>This End-User License Agreement (“Agreement”) is entered into between you (“User”) and MechaTechnologies (“Company”) governing the use of the Fiscal Integration System (“Software”).</p>
 
         <h2>1. Acceptance of Terms</h2>
         <p>By accessing or using the Software, you agree to be bound by this Agreement. If you do not agree, you must not use the Software.</p>
@@ -152,10 +156,24 @@
         <h2>11. Contact Information</h2>
         <div class="contact">
             <p>For questions regarding this Agreement, contact:</p>
-            <p><strong>[Your Company Name]</strong><br>
-            Email: <a href="mailto:support@yourdomain.com">support@yourdomain.com</a></p>
-            <p>Website: <a href="https://yourdomain.com">https://yourdomain.com</a></p>
+            <p><strong>MechaTechnologies</strong><br>
+            Email: <a href="mailto:support@mecha.co.zw">support@mecha.co.zw</a></p>
+            <p>Website: <a href="https://mecha.co.zw">https://mecha.co.zw</a></p>
         </div>
+
+        {% if show_accept_form %}
+        <div class="contact" style="margin-top: 1.5rem;">
+            <p class="font-semibold text-gray-800 mb-2">I have read and accept the End-User License Agreement</p>
+            <form method="post" action="{% url 'accept_eula' %}" class="inline">
+                {% csrf_token %}
+                <input type="hidden" name="next" value="{{ request.GET.next|default:request.path }}">
+                <button type="submit" class="px-4 py-2 bg-indigo-600 text-white rounded hover:bg-indigo-700 font-medium">Accept terms</button>
+            </form>
+        </div>
+        {% elif user.is_authenticated and eula_already_accepted %}
+        <p class="meta" style="margin-top: 1.5rem;">You have accepted this Agreement.</p>
+        {% endif %}
+        {% include "legal/_legal_footer.html" %}
     </div>
 </body>
 </html>

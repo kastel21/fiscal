@@ -77,10 +77,20 @@
                 <a href="{% url 'fdms_logs_tailwind' %}" class="block px-3 py-2 rounded hover:bg-slate-700 text-slate-200 text-sm">Logs</a>
             </div>
         </details>
+        <div class="pt-4 mt-2 border-t border-slate-700 space-y-1">
+            <a href="{% url 'eula' %}" class="block px-3 py-2 rounded hover:bg-slate-700 text-slate-200 text-sm">Legal (EULA)</a>
+            <a href="{% url 'privacy' %}" class="block px-3 py-2 rounded hover:bg-slate-700 text-slate-200 text-sm">Privacy</a>
+        </div>
     </nav>
 </aside>
 
 <main class="flex-1 overflow-auto">
+    {% if show_eula_banner %}
+    <div class="mx-6 mt-4 p-4 rounded-lg bg-blue-50 border border-blue-200 text-slate-800 text-sm">
+        <p class="mb-1"><strong>Terms and conditions</strong></p>
+        <p>Take a moment to read and accept our <a href="{% url 'eula' %}" class="text-indigo-600 font-medium hover:underline">terms and conditions</a>. Using the system for more than 30 days without accepting manually will automatically mean you have accepted by using the system.</p>
+    </div>
+    {% endif %}
     <div class="container mx-auto p-6">
         {% if messages %}
         <div class="mb-4 space-y-2">
@@ -94,9 +104,13 @@
         {% block content %}{% endblock %}
     </div>
     <footer class="border-t border-slate-200 mt-8 py-4 px-6 text-center text-sm text-slate-500">
-        <a href="{% url 'eula' %}" class="text-indigo-600 hover:underline">End User License Agreement</a>
+        <a href="{% url 'terms' %}" class="text-indigo-600 hover:underline">Terms of Service</a>
         <span class="mx-2">·</span>
         <a href="{% url 'privacy' %}" class="text-indigo-600 hover:underline">Privacy Policy</a>
+        <span class="mx-2">·</span>
+        <a href="{% url 'dpa' %}" class="text-indigo-600 hover:underline">Data Processing Addendum</a>
+        <span class="mx-2">·</span>
+        <a href="{% url 'cookies' %}" class="text-indigo-600 hover:underline">Cookie Policy</a>
     </footer>
 </main>
 

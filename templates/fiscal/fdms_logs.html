@@ -142,16 +142,16 @@
             <div class="log-details" id="details-{{ log.id }}" style="display:none;">
                 <div class="log-section">
                     <div class="log-section-title">Request Payload</div>
-                    {% if log._request_json %}
-                    <pre>{{ log._request_json }}</pre>
+                    {% if log.request_json %}
+                    <pre>{{ log.request_json }}</pre>
                     {% else %}
                     <div class="log-section empty">(empty)</div>
                     {% endif %}
                 </div>
                 <div class="log-section">
                     <div class="log-section-title">Response Payload</div>
-                    {% if log._response_json %}
-                    <pre>{{ log._response_json }}</pre>
+                    {% if log.response_json %}
+                    <pre>{{ log.response_json }}</pre>
                     {% else %}
                     <div class="log-section empty">(empty)</div>
                     {% endif %}

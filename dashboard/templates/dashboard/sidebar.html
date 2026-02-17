@@ -42,4 +42,14 @@
     {% else %}
     <span class="block px-3 py-2 rounded nav-locked" title="Activity required">Audit</span>
     {% endif %}
+    <div class="pt-4 mt-4 border-t border-slate-700 space-y-1">
+        <a href="{% url 'eula' %}"
+           class="block px-3 py-2 rounded hover:bg-slate-700 text-slate-200 text-sm">
+            Legal (EULA)
+        </a>
+        <a href="{% url 'privacy' %}"
+           class="block px-3 py-2 rounded hover:bg-slate-700 text-slate-200 text-sm">
+            Privacy
+        </a>
+    </div>
 </nav>
